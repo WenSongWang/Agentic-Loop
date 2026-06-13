@@ -1,0 +1,14 @@
+[
+  {
+    "id": "ci-001",
+    "service": "auth-api",
+    "test": "test_login_refresh",
+    "message": "AssertionError: expected 200 got 401"
+  },
+  {
+    "id": "ci-002",
+    "service": "billing",
+    "test": "test_invoice_total",
+    "message": "TypeError: NoneType is not subscriptable"
+  }
+]

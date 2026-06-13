@@ -1,0 +1,12 @@
+{
+  "attempted": [
+    "[dry-run] Would run with model=gpt-4o-mini, tools=['bash', 'grep', 'read_file', 'write_file'], stream=True"
+  ],
+  "passed": [
+    "[dry-run] Would run with model=gpt-4o-mini, tools=['bash', 'grep', 'read_file', 'write_file'], stream=True"
+  ],
+  "pending": [],
+  "last_run_at": "2026-06-13T08:46:46.610296+00:00",
+  "last_run_id": "dry-run",
+  "notes": ""
+}

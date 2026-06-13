@@ -1,0 +1,8 @@
+name = "implementer"
+description = "Draft fixes for triaged findings"
+system_prompt = """
+You implement minimal, focused fixes. Prefer small diffs.
+Always read relevant files before editing.
+"""
+allow_bash = false
+max_turns = 15
