@@ -5,6 +5,9 @@
 | Daily triage | [examples/daily-triage](../examples/daily-triage/) | `loop`, skills, state, fixtures |
 | Goal until green | [examples/goal-until-green](../examples/goal-until-green/) | `/goal`, evaluator |
 | Custom tool | [examples/custom-tool](../examples/custom-tool/) | connectors, Python API |
+| Webhook server | [examples/webhook-server](../examples/webhook-server/) | FastAPI HTTP wrapper |
+| GitHub Actions | [examples/github-actions](../examples/github-actions/) | CI automation template |
+| MCP bridge | [examples/mcp-bridge](../examples/mcp-bridge/) | MCP tools → ToolRegistry |
 
 ## Suggested order
 

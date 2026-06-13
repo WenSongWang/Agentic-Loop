@@ -82,7 +82,18 @@ Set `EVALUATOR_MODEL` to a cheaper model in `.env`.
 | Human triage | review `triage.json` pending items |
 | Deploy | cron + `agentic-loop loop --every 5m ... --once` in CI |
 
-## 7. HTTP wrapper (sketch)
+## 8. MCP connector
+
+```python
+from agentic_loop import MCPConnector, MCPServerConfig, register_mcp_tools
+
+async with MCPConnector(MCPServerConfig(command="npx", args=["-y", "server"])) as mcp:
+    names = await register_mcp_tools(registry, mcp, prefix="mcp")
+```
+
+See `examples/mcp-bridge/demo.py`.
+
+## 9. HTTP wrapper (sketch)
 
 Wrap `Orchestrator.run()` in FastAPI:
 

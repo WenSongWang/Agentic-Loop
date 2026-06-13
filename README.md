@@ -4,7 +4,17 @@ Lightweight **Loop Engineering** orchestrator — self-hosted agent loops with t
 
 Fork-friendly (MIT). See [docs/architecture.md](docs/architecture.md) and [docs/extending.md](docs/extending.md).
 
-## Quick Start
+## Install from PyPI
+
+```powershell
+pip install agentic-loop
+pip install "agentic-loop[webhook]"   # FastAPI server example
+pip install "agentic-loop[mcp]"       # MCP connector
+```
+
+See [docs/publishing.md](docs/publishing.md) for maintainers.
+
+## Quick Start (development)
 
 ```powershell
 python -m venv .venv
