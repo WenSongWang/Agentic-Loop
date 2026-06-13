@@ -26,6 +26,9 @@ class RunConfig:
     max_turns: int = 20
     allow_bash: bool = False
     dry_run: bool = False
+    stream: bool = True
+    max_retries: int = 3
+    tool_timeout: float = 120.0
     agentic_loop_dir: Path | None = None
 
     @property

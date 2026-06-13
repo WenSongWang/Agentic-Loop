@@ -58,6 +58,7 @@ Options:
   --api-base URL      Override OPENAI_BASE_URL
   --allow-bash        Enable bash tool (default: off)
   --dry-run           Skip LLM call
+  --no-stream         Disable streaming LLM output
   --json              Machine-readable output
 
 Examples:
